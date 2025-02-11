@@ -45,3 +45,5 @@ function showTask() {
   listContainer.innerHTML = localStorage.getItem("data");
 }
 document.addEventListener("DOMContentLoaded", showTask());
+
+document.getElementsByTagName("li").addEventListener("click", toggleCheck);
